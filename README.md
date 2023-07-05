@@ -4,6 +4,11 @@ Instalación:
 ```bash
 npm install
 ```
+Base de datos:
+```bash
+Crear una Base de datos mysql con el nombre reservadb
+```
+
 
 Configurar variables de entorno:
 ```bash

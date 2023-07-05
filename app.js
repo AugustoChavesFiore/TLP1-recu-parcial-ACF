@@ -18,7 +18,7 @@ conectarDB()
 // Middlewares
 // TODO: Implementar middlewares
 app.use(cors());
-app.use(helmet());
+// app.use(helmet());
 app.use(morgan('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
