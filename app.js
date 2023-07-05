@@ -11,6 +11,10 @@ require('ejs');
 const app = express();
 const port = process.env.PORT || 5000
 
+const { conectarDB } = require('./database');
+
+conectarDB()
+
 // Middlewares
 // TODO: Implementar middlewares
 app.use(cors());
